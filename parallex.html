@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JavaScript Parallax Page</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+    }
+
+    .parallax-container {
+      height: 100vh;
+      overflow-x: hidden;
+      overflow-y: auto;
+      perspective: 1px;
+    }
+
+    .parallax-section {
+      position: relative;
+      height: 100vh;
+      transform-style: preserve-3d;
+      perspective: inherit;
+    }
+
+    .parallax-layer {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+
+    .parallax-bg {
+      background-size: cover;
+      background-position: center;
+      transform-origin: center center;
+      transform: translateZ(-1px) scale(2);
+    }
+
+    .parallax-content {
+      position: relative;
+      padding: 100px 0;
+      text-align: center;
+      color: #000;
+    }
+
+    .parallax-content h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    .parallax-content p {
+      font-size: 24px;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <div class="parallax-container">
+    <div class="parallax-section">
+      <div class="parallax-layer parallax-bg" style="background-image: url('https://plus.unsplash.com/premium_photo-1666874682013-352924768df5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bW91bnRhaW4lMjBzY2VuZXJ5fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60');"></div>
+      <div class="parallax-layer parallax-content">
+        <h1>Welcome to the World of JavaScript</h1>
+        <p>JavaScript is a powerful programming language used for web development.</p>
+      </div>
+    </div>
+    <div class="parallax-section">
+      <div class="parallax-layer parallax-bg" style="background-image: url('https://images.unsplash.com/photo-1597655601841-214a4cfe8b2c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bW91bnRhaW4lMjBzY2VuZXJ5fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60');"></div>
+      <div class="parallax-layer parallax-content">
+        <h1>Interactive Web Applications</h1>
+        <p>JavaScript enables you to create dynamic and interactive web applications.</p>
+      </div>
+    </div>
+    <div class="parallax-section">
+      <div class="parallax-layer parallax-bg" style="background-image: url('https://images.unsplash.com/photo-1621114410742-f886ab91e6f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bW91bnRhaW4lMjBzY2VuZXJ5fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60');"></div>
+      <div class="parallax-layer parallax-content">
+        <h1>Endless Possibilities</h1>
+        <p>With JavaScript, you can build games, animations, and much more!</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
