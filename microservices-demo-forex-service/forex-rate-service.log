@@ -1,0 +1,131 @@
+2023-08-01 10:09:50.054  INFO [forex-rate-service,,] 12508 --- [restartedMain] MicroservicesDemoForexServiceApplication : Starting MicroservicesDemoForexServiceApplication using Java 14.0.2 on DESKTOP-L8UET0S with PID 12508 (C:\Users\Debanjan\eclipse-workspace\microservices-demo-forex-service\target\classes started by Debanjan in C:\Users\Debanjan\eclipse-workspace\microservices-demo-forex-service)
+2023-08-01 10:09:50.059  INFO [forex-rate-service,,] 12508 --- [restartedMain] MicroservicesDemoForexServiceApplication : No active profile set, falling back to 1 default profile: "default"
+2023-08-01 10:09:50.114  INFO [forex-rate-service,,] 12508 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-01 10:09:50.115  INFO [forex-rate-service,,] 12508 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-01 10:09:51.294  INFO [forex-rate-service,,] 12508 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2023-08-01 10:09:51.429  INFO [forex-rate-service,,] 12508 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 129 ms. Found 1 MongoDB repository interfaces.
+2023-08-01 10:09:51.709  INFO [forex-rate-service,,] 12508 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=425683d5-0a2c-3be3-b718-c1ff5d456841
+2023-08-01 10:09:52.518  INFO [forex-rate-service,,] 12508 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-08-01 10:09:52.528  INFO [forex-rate-service,,] 12508 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-01 10:09:52.528  INFO [forex-rate-service,,] 12508 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2023-08-01 10:09:52.646  INFO [forex-rate-service,,] 12508 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-01 10:09:52.647  INFO [forex-rate-service,,] 12508 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2532 ms
+2023-08-01 10:09:53.414  INFO [forex-rate-service,,] 12508 --- [restartedMain] org.mongodb.driver.client                : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.6.1"}, "os": {"type": "Windows", "name": "Windows 10", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/14.0.2+12-46"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, streamFactoryFactory=null, commandListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsCommandListener@3dd76c36, org.springframework.cloud.sleuth.instrument.mongodb.TraceMongoCommandListener@252fc7ca], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@2d7870b0]}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsConnectionPoolListener@17374790], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=org.springframework.cloud.sleuth.instrument.mongodb.TraceSynchronousMongoClientSettingsBuilderCustomizer$$Lambda$938/0x0000000801145440@11872f9c}
+2023-08-01 10:09:53.464  INFO [forex-rate-service,,] 12508 --- [cluster-rtt-ClusterId{value='64c88c99388b257d26caf886', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:89}] to localhost:27017
+2023-08-01 10:09:53.465  INFO [forex-rate-service,,] 12508 --- [cluster-ClusterId{value='64c88c99388b257d26caf886', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:88}] to localhost:27017
+2023-08-01 10:09:53.466  INFO [forex-rate-service,,] 12508 --- [cluster-ClusterId{value='64c88c99388b257d26caf886', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=56693200}
+2023-08-01 10:09:53.494  WARN [forex-rate-service,,] 12508 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+2023-08-01 10:09:53.573  WARN [forex-rate-service,,] 12508 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+2023-08-01 10:09:54.104  WARN [forex-rate-service,,] 12508 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-08-01 10:09:54.140  WARN [forex-rate-service,,] 12508 --- [pool-2-thread-1] o.s.c.s.a.z.ZipkinAutoConfiguration      : Check result of the [RestTemplateSender{http://localhost:9411/api/v2/spans}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connect timed out; nested exception is java.net.SocketTimeoutException: Connect timed out}]
+2023-08-01 10:09:56.387  INFO [forex-rate-service,,] 12508 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-08-01 10:09:56.525  WARN [forex-rate-service,,] 12508 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-08-01 10:09:56.574  INFO [forex-rate-service,,] 12508 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 18 endpoint(s) beneath base path '/actuator'
+2023-08-01 10:09:56.677  INFO [forex-rate-service,,] 12508 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 61514 (http) with context path ''
+2023-08-01 10:09:56.678  INFO [forex-rate-service,,] 12508 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 61514
+2023-08-01 10:09:56.685  INFO [forex-rate-service,,] 12508 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-08-01 10:09:56.726  INFO [forex-rate-service,,] 12508 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-08-01 10:09:56.732  INFO [forex-rate-service,,] 12508 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-08-01 10:09:56.759  INFO [forex-rate-service,,] 12508 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-08-01 10:09:56.759  INFO [forex-rate-service,,] 12508 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-08-01 10:09:56.759  INFO [forex-rate-service,,] 12508 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-08-01 10:09:56.759  INFO [forex-rate-service,,] 12508 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-08-01 10:09:56.759  INFO [forex-rate-service,,] 12508 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-08-01 10:09:56.761  INFO [forex-rate-service,,] 12508 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2023-08-01 10:09:56.761  INFO [forex-rate-service,,] 12508 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-08-01 10:09:56.923  INFO [forex-rate-service,,] 12508 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-08-01 10:09:56.926  INFO [forex-rate-service,,] 12508 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2023-08-01 10:09:56.929  INFO [forex-rate-service,,] 12508 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-08-01 10:09:56.935  INFO [forex-rate-service,,] 12508 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1690864796934 with initial instances count: 1
+2023-08-01 10:09:56.943  INFO [forex-rate-service,,] 12508 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application FOREX-RATE-SERVICE with eureka with status UP
+2023-08-01 10:09:56.943  INFO [forex-rate-service,,] 12508 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1690864796943, current=UP, previous=STARTING]
+2023-08-01 10:09:56.945  INFO [forex-rate-service,,] 12508 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FOREX-RATE-SERVICE/forex-rate-service:09bf4e548cbd3a384d25ba505b5e5548: registering service...
+2023-08-01 10:09:56.992  INFO [forex-rate-service,,] 12508 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FOREX-RATE-SERVICE/forex-rate-service:09bf4e548cbd3a384d25ba505b5e5548 - registration status: 204
+2023-08-01 10:09:57.092  INFO [forex-rate-service,,] 12508 --- [restartedMain] MicroservicesDemoForexServiceApplication : Started MicroservicesDemoForexServiceApplication in 7.557 seconds (JVM running for 8.224)
+2023-08-01 10:09:57.121  INFO [forex-rate-service,,] 12508 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Application registered itself as 272546afe110
+2023-08-01 10:09:57.186  INFO [forex-rate-service,4361cb6b50f454fe,4361cb6b50f454fe] 12508 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-01 10:09:57.186  INFO [forex-rate-service,4361cb6b50f454fe,4361cb6b50f454fe] 12508 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-01 10:09:57.188  INFO [forex-rate-service,4361cb6b50f454fe,4361cb6b50f454fe] 12508 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-08-01 10:09:57.263  INFO [forex-rate-service,4361cb6b50f454fe,4361cb6b50f454fe] 12508 --- [http-nio-auto-1-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:90}] to localhost:27017
+2023-08-01 10:14:56.747  INFO [forex-rate-service,,] 12508 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-08-01 10:19:56.744  INFO [forex-rate-service,,] 12508 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-08-01 10:24:56.728  INFO [forex-rate-service,,] 12508 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-08-01 10:29:56.725  INFO [forex-rate-service,,] 12508 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-08-01 10:34:56.720  INFO [forex-rate-service,,] 12508 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-08-01 10:39:56.720  INFO [forex-rate-service,,] 12508 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-08-01 10:44:56.715  INFO [forex-rate-service,,] 12508 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-08-01 10:49:56.709  INFO [forex-rate-service,,] 12508 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-08-01 10:53:45.904  INFO [forex-rate-service,,] 12508 --- [RMI TCP Connection(54)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-08-01 10:53:46.169  INFO [forex-rate-service,,] 12508 --- [RMI TCP Connection(54)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application FOREX-RATE-SERVICE with eureka with status DOWN
+2023-08-01 10:53:46.252  INFO [forex-rate-service,,] 12508 --- [RMI TCP Connection(54)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1690867426252, current=DOWN, previous=UP]
+2023-08-01 10:53:46.253  INFO [forex-rate-service,,] 12508 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FOREX-RATE-SERVICE/forex-rate-service:09bf4e548cbd3a384d25ba505b5e5548: registering service...
+2023-08-01 10:53:46.538  INFO [forex-rate-service,,] 12508 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FOREX-RATE-SERVICE/forex-rate-service:09bf4e548cbd3a384d25ba505b5e5548 - registration status: 204
+2023-08-01 10:53:47.847  INFO [forex-rate-service,,] 12508 --- [RMI TCP Connection(54)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-08-01 10:53:47.905  INFO [forex-rate-service,,] 12508 --- [RMI TCP Connection(54)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-08-01 10:53:49.741  WARN [forex-rate-service,,] 12508 --- [RMI TCP Connection(54)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [BufferPoolPruner-1-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@14.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@14.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@14.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1661)
+ java.base@14.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@14.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@14.0.2/java.lang.Thread.run(Thread.java:832)
+2023-08-01 10:53:49.743  WARN [forex-rate-service,,] 12508 --- [RMI TCP Connection(54)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [cluster-ClusterId{value='64c88c99388b257d26caf886', description='null'}-localhost:27017] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@14.0.2/sun.nio.ch.Net.poll(Native Method)
+ java.base@14.0.2/sun.nio.ch.NioSocketImpl.park(NioSocketImpl.java:181)
+ java.base@14.0.2/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:285)
+ java.base@14.0.2/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:309)
+ java.base@14.0.2/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+ java.base@14.0.2/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+ java.base@14.0.2/java.net.Socket$SocketInputStream.read(Socket.java:982)
+ app//com.mongodb.internal.connection.SocketStream.read(SocketStream.java:110)
+ app//com.mongodb.internal.connection.SocketStream.read(SocketStream.java:135)
+ app//com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:713)
+ app//com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:571)
+ app//com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:410)
+ app//com.mongodb.internal.connection.InternalStreamConnection.receive(InternalStreamConnection.java:369)
+ app//com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:221)
+ app//com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:157)
+ java.base@14.0.2/java.lang.Thread.run(Thread.java:832)
+2023-08-01 10:53:49.766  WARN [forex-rate-service,,] 12508 --- [RMI TCP Connection(54)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [cluster-rtt-ClusterId{value='64c88c99388b257d26caf886', description='null'}-localhost:27017] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@14.0.2/java.lang.Thread.sleep(Native Method)
+ app//com.mongodb.internal.connection.DefaultServerMonitor.waitForNext(DefaultServerMonitor.java:443)
+ app//com.mongodb.internal.connection.DefaultServerMonitor.access$1500(DefaultServerMonitor.java:64)
+ app//com.mongodb.internal.connection.DefaultServerMonitor$RoundTripTimeRunnable.run(DefaultServerMonitor.java:415)
+ java.base@14.0.2/java.lang.Thread.run(Thread.java:832)
+2023-08-01 10:53:49.767  WARN [forex-rate-service,,] 12508 --- [RMI TCP Connection(54)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [MaintenanceTimer-2-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@14.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@14.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@14.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1661)
+ java.base@14.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@14.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@14.0.2/java.lang.Thread.run(Thread.java:832)
+2023-08-01 10:53:49.782  WARN [forex-rate-service,,] 12508 --- [RMI TCP Connection(54)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [spring.cloud.inetutils] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@14.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@14.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@14.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:505)
+ java.base@14.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3137)
+ java.base@14.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1614)
+ java.base@14.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@14.0.2/java.lang.Thread.run(Thread.java:832)
+2023-08-01 10:53:49.783  WARN [forex-rate-service,,] 12508 --- [RMI TCP Connection(54)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [AsyncReporter{RestTemplateSender{http://localhost:9411/api/v2/spans}}] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@14.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@14.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@14.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1661)
+ app//zipkin2.reporter.ByteBoundedQueue.drainTo(ByteBoundedQueue.java:81)
+ app//zipkin2.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:270)
+ app//zipkin2.reporter.AsyncReporter$Flusher.run(AsyncReporter.java:378)
+ java.base@14.0.2/java.lang.Thread.run(Thread.java:832)
+2023-08-01 10:53:50.621  INFO [forex-rate-service,,] 12508 --- [Thread-5] o.s.c.s.a.z.ZipkinAutoConfiguration      : Flushing remaining spans on shutdown
+2023-08-01 10:53:52.188  INFO [forex-rate-service,,] 12508 --- [RMI TCP Connection(54)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2023-08-01 10:53:55.349  INFO [forex-rate-service,,] 12508 --- [RMI TCP Connection(54)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2023-08-01 10:53:55.621  INFO [forex-rate-service,,] 12508 --- [RMI TCP Connection(54)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FOREX-RATE-SERVICE/forex-rate-service:09bf4e548cbd3a384d25ba505b5e5548 - deregister  status: 200
+2023-08-01 10:53:55.994  INFO [forex-rate-service,,] 12508 --- [RMI TCP Connection(54)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
