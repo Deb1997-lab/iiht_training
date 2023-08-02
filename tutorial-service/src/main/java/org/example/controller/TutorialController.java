@@ -18,8 +18,8 @@ import org.springframework.web.client.RestTemplate;
 
 import lombok.AllArgsConstructor;
 
-@RequestMapping("/custom")
-@RestController
+
+@RepositoryRestController
 @AllArgsConstructor
 public class TutorialController {
 	
