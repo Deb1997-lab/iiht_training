@@ -1,0 +1,16 @@
+spring:
+  application:  
+    name: employee-service
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: demo1
+server:
+  port: 8888
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - '*'
